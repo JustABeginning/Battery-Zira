@@ -1,56 +1,46 @@
 # Battery-Zira
 
 <p align=left>
- <a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="https://img.shields.io/badge/platform-windows-blue" alt="Platform Support"></a>
- <a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="https://img.shields.io/badge/device-laptop-orange" alt="Device Support"></a>
- <a href="https://dev.to/justabeginning/battery-zira-windows-8m0"><img src="https://img.shields.io/badge/article-dev.to-brightgreen" alt="Brief Article"></a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="https://img.shields.io/badge/platform-windows-blue" alt="Platform Support"></a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="https://img.shields.io/badge/device-laptop-orange" alt="Device Support"></a>
+<a href="https://dev.to/justabeginning/battery-zira-windows-8m0"><img src="https://img.shields.io/badge/article-dev.to-brightgreen" alt="Brief Article"></a>
 </p>
 
 <p align=left>
- <a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="https://img.shields.io/badge/language-Batch%20Script%2C%20VBScript-green" alt="Language Used"></a>
- <a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JustABeginning/Battery-Zira"></a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="https://img.shields.io/badge/language-Batch%20Script%2C%20VBScript-green" alt="Language Used"></a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JustABeginning/Battery-Zira"></a>
 </p>
 
 A Windows based program that gives voice reminder based on *low*, *critical*, *maximum* and *fully charged* battery levels in a laptop
 
-<table align=center>
- <tr align=center valign=middle>
-  <td><a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Low_Notify.jpg" alt="Battery Low Notification"></a></td>
-  <td><a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Critical_Notify.jpg" alt="Battery Critical Notification"></a></td>
- <tr>
- <tr align=center valign=middle>
-  <td><a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Max_Notify.jpg" alt="Battery Maximum Notification"></a></td>
-  <td><a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Full_Notify.jpg" alt="Battery Full Notification"></td>
- <tr>
-</table>
-
-<p align=left>
- <a href="https://www.producthunt.com/posts/battery-zira-windows?utm_source=badge-review&utm_medium=badge&utm_souce=badge-battery-zira-windows#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=309402&theme=light" alt="Battery Zira (Windows) - An incredible assistant for laptop battery | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<p align=center>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Low_Notify.jpg" alt="Battery Low Notification" hspace=10></a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Critical_Notify.jpg" alt="Battery Critical Notification" hspace=10></a>
 </p>
 
-## Install
+<p align=center>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Max_Notify.jpg" alt="Battery Maximum Notification" hspace=10></a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Battery_Full_Notify.jpg" alt="Battery Full Notification" hspace=10></a>
+</p>
 
-+ [Download](https://github.com/JustABeginning/Battery-Zira/releases) the zip file and extract/save it in a folder (Give it any name) [All the extracted components must be in the same folder].
+<p align=left>
+<a href="https://www.producthunt.com/posts/battery-zira-windows?utm_source=badge-review&utm_medium=badge&utm_souce=badge-battery-zira-windows#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=309402&theme=light" alt="Battery Zira (Windows) - An incredible assistant for laptop battery | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</p>
 
-### Auto
+# Install
 
-1. Go to the extracted folder.
-1. Click on `Install.bat` file.
-
-### Manual
-
-1. Go to the extracted folder.
-1. Create a *shortcut* of `Launch_BAT.bat` file.
-1. Press `Win+R` from keyboard or, open windows run menu, then type `shell:startup` and press enter.
-1. Save the shortcut created in **step-2** in the location which opens in **step-3**.
-1. Return back to the folder of **step-1** and click on `Launch_BAT.bat` file.
+1. [Download](https://github.com/JustABeginning/Battery-Zira/releases) all the files and extract/save them in a folder (Give it any name) [All the files must be in the same folder].
+2. Create a *shortcut* of `Launch_BAT.bat` file.
+3. Press `Win+R` from keyboard or, open windows run menu, then type `shell:startup` and press enter.
+4. Save the shortcut created in **step-2** in the location which opens in **step-3**.
+5. Return back to the folder of **step-1** and click on `Launch_BAT.bat` file.
 
 :point_right: Steps **1 to 4** have been shown below :point_down:
 
 <p align=center>
- <a href="https://github.com/JustABeginning/Battery-Zira#JAB">
-  <img src="Images/Install_Zira.gif" alt="Install Guide for Battery Zira (Windows)">
- </a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB">
+<img src="Images/Install_Zira.gif" alt="Install Guide for Battery Zira (Windows)">
+</a>
 </p>
 
 ## Note
@@ -58,39 +48,24 @@ A Windows based program that gives voice reminder based on *low*, *critical*, *m
 + In order to set custom values, use `Custom_Battery_Level.bat` file.
 
 <p align=center>
- <a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Custom_Value.jpg" alt="Set Custom Values"></a>
+<a href="https://github.com/JustABeginning/Battery-Zira#JAB"><img src="Images/Custom_Value.jpg" alt="Set Custom Values"></a>
 </p>
 
 + To skip the value of a parameter, press enter. This will accept the default/recently saved (if any) value for that parameter.
-+ For a parameter accepting numerical values, only *non-zero* **positive** *integral* values are allowed.
++ Only *non-zero* **positive** *integral* values are accepted for any parameter.
 + The DEFAULT VALUES are:
-  + Stop Battery-Zira - no
-  + Low battery level - 40 %
-  + Critical battery level - 20 %
-  + Maximum battery level - 80 %
-  + Snooze time - 1 minute
-  + Enable voice - no
-  + Voice assistant - Zira
-  + Voice rate - 2
-+ If the program has been stopped, it can be re-triggered using `Install.bat` file.
+	+ Low battery level - 40 %
+	+ Critical battery level - 20 %
+	+ Maximum battery level - 80 %
+	+ Snooze time - 1 minute
 
-## Uninstall
-
-### Auto
-
-1. Click on `Uninstall.bat` file.
-
-### Manual
+# Uninstall
 
 1. Delete the `Launch_BAT.bat` *shortcut* from the location which opens in **step-3** of ***Install***.
-1. Restart the Computer.
+2. Restart the Computer.
 
-## 🧋 Contribution
+# :clap: A Big Thanks To
 
- Pull requests, issue reports and suggestions are welcome 😊 !
-
-## :clap: A Big Thanks To
-
-### Stargazers
+## Stargazers
 
 [![Stargazers repo roster for @JustABeginning/Battery-Zira](https://reporoster.com/stars/JustABeginning/Battery-Zira)](https://github.com/JustABeginning/Battery-Zira/stargazers)
