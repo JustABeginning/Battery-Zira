@@ -6,7 +6,6 @@ set /A cr_level=20
 set /A max_level=80
 set /A full_level=100
 set /A sz_time=60
-set /A stp_pgm=0
 set /A low_not=1
 set /A cr_not=1
 set /A max_not=1
@@ -31,8 +30,6 @@ if %chk_voice%==1 (
 if exist %setBL% (
 	call :setBatteryLevel
 )
-:: Stop or, Continue
-if %stp_pgm%==1 (goto :stop)
 set /A wait=%sz_time%
 :: Create TEMP File
 set "tmp_val=tmp_val.txt"
@@ -118,10 +115,6 @@ if exist %batLV% (
 ping 127.0.0.1 -n %wait% > nul
 goto :loop
 :stop
-set "fileSM=Stop_Msg.vbs"
-if exist %fileSM% (
-	start %fileSM%
-)
 exit /b %errorlevel%
 :: End of Main Function
 :: Battery Level Initialization Function
@@ -147,9 +140,6 @@ if %count%==4 (
 )
 if %count%==5 (
 	set /A sz_time=%~1
-)
-if %count%==8 (
-	set /A stp_pgm=%~1
 )
 exit /b 0
 :: Status SET Functions

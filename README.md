@@ -64,7 +64,6 @@ A Windows based program that gives voice reminder based on *low*, *critical*, *m
 + To skip the value of a parameter, press enter. This will accept the default/recently saved (if any) value for that parameter.
 + For a parameter accepting numerical values, only *non-zero* **positive** *integral* values are allowed.
 + The DEFAULT VALUES are:
-  + Stop Battery-Zira - no
   + Low battery level - 40 %
   + Critical battery level - 20 %
   + Maximum battery level - 80 %
@@ -72,7 +71,6 @@ A Windows based program that gives voice reminder based on *low*, *critical*, *m
   + Enable voice - no
   + Voice assistant - Zira
   + Voice rate - 2
-+ If the program has been stopped, it can be re-triggered using `Install.bat` file.
 
 ## Uninstall
 
